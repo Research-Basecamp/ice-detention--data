@@ -1,1 +1,3 @@
 waybackpy
+requests
+BeautifulSoup4  
