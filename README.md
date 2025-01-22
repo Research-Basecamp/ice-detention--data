@@ -2,22 +2,27 @@
 
 This project processes and manipulates data related to ICE detention statistics, specifically for fiscal years 2021-2025. The data is extracted from Excel files available from the Wayback Machine, cleaned, and transformed into a structured format for analysis.
 
+---
+
 ## Project Structure
 
 ICE-DETENTION-DATA
-├── All_Excel_sheets 
-├── README.md 
-├── assests 
-├── requirment.txt 
-└── src 
-    ├── Extract_all_Sheets.py 
-    ├── data_processing.py 
-    ├── download_xlsx_from_wayback.py 
-    ├── extract_update_times.py 
-    ├── fetch_wayback_urls.py 
-    ├── filter_unique_dates.py 
-    └── threedays_data_manupulation.py
+ICE-DETENTION-DATA
+|    ├── All_Excel_sheets
+|    ├── README.md
+|    ├── assests
+|    ├── requirement.txt
+|
+├── src
+|    ├── Extract_all_Sheets.py
+|    ├── data_processing.py
+|    ├── download_xlsx_from_wayback.py
+|    ├── extract_update_times.py
+|    ├── fetch_wayback_urls.py
+|    ├── filter_unique_dates.py
+|    └── threedays_data_manipulation.py
 
+---
 
 ## Overview
 
