@@ -4,26 +4,6 @@ This project processes and manipulates data related to ICE detention statistics,
 
 ---
 
-## Project Structure
-
-ICE-DETENTION-DATA
-ICE-DETENTION-DATA
-|    ├── All_Excel_sheets
-|    ├── README.md
-|    ├── assests
-|    ├── requirement.txt
-|
-├── src
-|    ├── Extract_all_Sheets.py
-|    ├── data_processing.py
-|    ├── download_xlsx_from_wayback.py
-|    ├── extract_update_times.py
-|    ├── fetch_wayback_urls.py
-|    ├── filter_unique_dates.py
-|    └── threedays_data_manipulation.py
-
----
-
 ## Overview
 
 The project consists of several Python scripts aimed at downloading, processing, and transforming historical detention data into a structured and clean format. The primary goal is to clean and filter the data to generate a consolidated dataset that can be easily analyzed.
