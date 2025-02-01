@@ -1,3 +1,7 @@
 waybackpy
 requests
 BeautifulSoup4  
+pandas
+os
+csv
+datetime
