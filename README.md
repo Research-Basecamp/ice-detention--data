@@ -17,12 +17,15 @@ The project consists of several Python scripts aimed at downloading, processing,
 2. **Data Extraction**:
     - `Extract_all_Sheets.py` extracts relevant sheets from the downloaded Excel files.
     - `data_processing.py` reads the relevant sheets, extracts the necessary data (such as ICE and CBP detention statistics), and compiles it into a structured format.
+    - `detention_combine_container` reads the facilities sheet.
 
 3. **Data Cleaning**:
     - The script ensures that only unique rows are kept based on specific criteria, such as dates and update times. This is handled by `filter_unique_dates.py` and `threedays_data_manupulation.py`.
+    - For cleaning of facilities sheet, look at the `detention_combine_container.r` file for cleaning of files located in the `All_Excel_sheets` directory.
 
 4. **Consolidation**:
     - After extraction and filtering, the data is saved into two formats: `Data_processing.csv` and `Data_processing.xlsx`, for further analysis or use in downstream applications.
+    - Cleaned and wrangled facilities data (converted to wide format) can be found in the `facilities_processed` folder.
 
 ## Setup Instructions
 
